@@ -1,0 +1,17 @@
+Wia, an Irish startup that offers a cloud platform to enable developers to turn various sensor-based hardware into fully fledged Internet of Things (IoT) devices, has raised €750,000 in seed funding. The rather modest round is led by Suir Valley Ventures, with participation from Enterprise Ireland.
+
+Launched in 2015, the Wia platform attempts to take care of a lot of the heavy lifting required to put the cloud-based infrastructure in place (and keep it running) in order to make dumb devices smart and put the ‘Internet’ into IoT. Specifically, it claims to let developers convert any type of sensing device into a “secure, smart and useful application” in a matter of minutes, saving a ton of time and many lines of code.
+
+“You have a piece of hardware that you’ve built, it could be a thermostat, a bike tracker or even a self-driving car. What do all these devices have in common? You need to capture data from sensors to turn these devices into something smart and useful,” explains Wia founder and CEO Conall Laverty.
+
+“To do this, you need a platform,” he continues. “The old way of doing things is to cram a bunch of developers into a room and get them to write 100,000’s of lines of code hoping that in a few months time they have something that works. You just want to send a bit of data from there to here, keep the lights on, and make sure there’s no unwanted visitors at home”.
+
+Easier said than done, right? Which, of course, is where IoT platforms like Wia — and competitors such as Relayr and Evrythng — step in.
+
+“We take away all that hard stuff. With our enterprise-grade platform, you can make anything smart within just a few minutes. We have everything you need to manage, capture, control and integrate any type of device. You don’t even need to know how to code,” claims Laverty.
+
+Or, to put it another way, Wia wants to become the “Stripe for the Internet of Things”.
+
+To that end, Laverty says the startup works with any IoT developer, from the bedroom maker all the way to an enterprise customer who wants to deploy a million devices across the world. “As we are a horizontal platform, this allows us to work with companies across a large number of verticals including logistics, agriculture and industrial,’ he says.
+
+For developers to play with Wia it is free. For companies that wish to offer devices powered by the Wia cloud service, the startup charges a subscription, starting from €59 per month, depending on the number of devices. In addition, an on-premise version of the platform is planned for release in the coming months, which will be charged on an annual license basis.
