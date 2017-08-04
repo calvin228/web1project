@@ -1,3 +1,4 @@
+
 html, body{
     font-size: 100%;
 	background:	#fff;
@@ -18,8 +19,8 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
-/*-- banner --*/
-/*------------------ Slider Part starts Here----------*/
+
+
 #slider3,
 #slider4 {
   box-shadow: none;
@@ -109,6 +110,41 @@ body a:hover{
   background-position:21% 11%;
   right: -9%;
 }
+/*from here(calvin)*/
+.comment{	
+	margin-bottom: 2%;
+	border-bottom: 2px solid #9C9C9C;
+	
+}
+
+.comments{
+	background: #E4E4E4;
+	padding:2%;
+}
+.name{
+	fontWeight: bold;
+}
+.contact-grid input[type="text"],.contact-grid textarea{
+	outline:none;
+	border:1px solid #E9E9E9;
+	width:100%;
+	background:none;
+	color:#999;
+	font-size:14px;
+	padding:12px 10px;
+}
+.userreview{
+	margin:2%;
+}
+.userreview li{
+	list-style: none;
+}
+.userreview img{	
+	margin-right:2%;	
+}
+/*to here(calvin)*/
+
+
 #slider3-pager a ,#slider4-pager a{
   display: inline-block;
 }
@@ -176,7 +212,10 @@ body a:hover{
     top: 47%;
     }
 }
-/*----*/
+.about p{
+	padding-top:0.5%;
+	font-size:16px;
+}
 .callbacks_tabs a{
  visibility: hidden;
 }
@@ -201,7 +240,7 @@ body a:hover{
 	background: #1ABC9C;
 	border: 2px solid #FFFFFF;
 }
-/*------------------ Slider Part ends Here----------*/
+
 .banner{
 	background:url(../images/banner.jpg) no-repeat 0px 0px;
 	background-size:cover;
@@ -268,13 +307,11 @@ body a:hover{
     color: #FA7535;
     background-color: transparent;
 }
-/*---edited by Fendy---(dr sini)*/
 .navbar-nav li.act a{
-	    color: #76D7C4;
-    font-size: medium;
+	color:#FA7535;
 }
-/*---edited by Fendy---(smpe sini)*/
-/*-- nav-effect --*/
+
+
 .cl-effect-18 a.effect1::before, .cl-effect-18 a.effect1::after {
 	left:0% !important;
 }
@@ -353,7 +390,8 @@ body a:hover{
 	-moz-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 }
-/*-- //nav-effect --*/
+
+
 .banner-info-slider{
 	padding:0em 0 0 5em;
 }
@@ -413,7 +451,7 @@ body a:hover{
 	color:#FA7535;
 	text-transform: uppercase;
 }
-/*-- type-1 --*/
+
 .more a{
     position: relative;
 	display: block;
@@ -458,9 +496,8 @@ body a:hover{
 .type-1:hover span:first-of-type {
 	background: #073f58;
 }
-/*-- //type-1 --*/
-/*-- //banner --*/
-/*--banner-bottom --*/
+
+
 .br-bm-gd-lt .overlay {
     display: block;
     position: absolute;
@@ -524,7 +561,6 @@ body a:hover{
 }
 .br-bm-gd-lt{
 	background:url(../images/1.jpg) no-repeat 0px 0px;
-
 	display:block;
 }
 .br-bm-gd-lt1{
@@ -555,18 +591,18 @@ body a:hover{
 	background:url(../images/8.jpg) no-repeat 0px 0px;
 	display:block;
 }
-.iot-pos {
+.health-pos {
     position: absolute;
     top: 0%;
     left: 0%;
 }
-.iot{
+.health{
 	padding:1em 1em 0;
 }
 .banner-bottom-grid-left h3{
 	padding:0 1em;
 }
-.iot ul li{
+.health ul li{
 	padding:.2em 0.4em;
     background: #1ABC9C;
 	border:2px solid #1ABC9C;
@@ -579,20 +615,20 @@ body a:hover{
 	margin-left:.3em;
 	font-weight: 300;
 }
-.iot ul li a{
+.health ul li a{
 	color: #fff;
     background: #1ABC9C;
 	padding: .1em 1.2em;
 	border:2px solid #1ABC9C;
 	text-decoration:none;
 }
-.iot ul li:nth-child(1){
+.health ul li:nth-child(1){
 	margin-left:0;
 	padding:0;
 	border:none;
 	background: none;
 }
-.iot ul li:nth-child(2){
+.health ul li:nth-child(2){
 	background:none;
 	border:2px solid #fff;
 }
@@ -638,7 +674,7 @@ body a:hover{
 .banner-bottom-grid-left:hover .dummy{
 	display:block;
 }
-.banner-bottom-grid-left:hover .iot ul li a{
+.banner-bottom-grid-left:hover .health ul li a{
 	background:none;
 	border:2px solid #fff;
 }
@@ -653,25 +689,25 @@ body a:hover{
 	margin:0;
 	font-weight:300;
 }
-.iot ul li a.sport{
+.health ul li a.sport{
 	
 }
-.iot ul li a.plane{
+.health ul li a.plane{
 
 }
-.iot ul li a.general{
+.health ul li a.general{
 
 }
-.iot ul li a.pol{
+.health ul li a.pol{
 	
 }
-.iot ul li a.world{
+.health ul li a.world{
 
 }
-.iot ul li a.national{
+.health ul li a.national{
 	padding: .1em .2em !important;
 }
-.iot ul li a.business{
+.health ul li a.business{
 }
 .banner-bottom-grids:nth-child(2){
 	margin:3em 0;
@@ -724,7 +760,8 @@ a.breaking {
     color: #fff;
     margin: 0;
 }
-/*-- video-grids --*/
+
+
 .video-grids{
 	margin:3em 0;
 }
@@ -777,7 +814,8 @@ a.breaking {
 .video-grids-left1 img{
 	width:100%;
 }
-/*--flexisel--*/
+
+
 .flex-slider{	
 background:#222227;
 padding: 70px 0 165px 0;
@@ -824,7 +862,8 @@ position:relative;
 	cursor: pointer;
 	position: relative;
 }
-/*---- Nav ---*/
+
+
 .nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
 	width:25px;
     height: 69px;
@@ -842,7 +881,8 @@ position:relative;
   top: 33% !important;
   background:#111 url(../images/rightw.png) no-repeat 8px 28px;
 }
-/*--//flexisel--*/
+
+
 .play-icon i {
 	background: url(../images/img-sp.png) no-repeat -91px -94px;
     width: 45px;
@@ -884,8 +924,9 @@ position:relative;
 	margin:0;
 	font-size: .8em;
 }
-/*-- //video-grids --*/
-/******** SAP ************/
+
+
+
 .sap_tabs{
 	clear:both;
 	font-style: normal;
@@ -994,7 +1035,7 @@ ul.tab_list{
 	padding:0em;
 	margin:0;
 }
-/******** //SAP ************/
+
 .tab_list{
 	float:left;
 	width: 35%;
@@ -1055,8 +1096,10 @@ a.orange1{
 a.orange2{
 	color:#FA7535 !important;
 }	
-/*--//banner-bottom --*/
-/*-- video-bottom-grids --*/
+
+
+
+
 .video-bottom-grid1 img{
 	border-top:5px solid #1ABC9C;
 }
@@ -1190,8 +1233,7 @@ ul.list5 li a:hover,.res5 a{
 ul.list6 li a:hover,.res6 a{
 	color:#FA7535;
 }
-/*-- //video-bottom-grids --*/
-/*-- news-and-events --*/
+
 .news{
 	margin:3em 0;
 }
@@ -1452,8 +1494,7 @@ a.high {
 .story h3 a:hover{
 	color:#1ABC9C;
 }
-/*-- //news-and-events --*/
-/*-- footer --*/
+
 .footer-top-w3layouts-agile{
 	background:#333;
 	padding:1em 0 1.5em;
@@ -1696,8 +1737,7 @@ a.high {
     background:url(../images/3.png) no-repeat -87px -67px;
     display: block;
 }
-/*-- footer --*/
-/*-- news-and-events --*/
+
 .news-and-events{
 	padding:2em 0 0;
 }
@@ -1730,7 +1770,7 @@ a.high {
 	margin:0;
 	line-height:1.8em;
 }
-/*-- effect --*/
+
 .grid {
 	position: relative;
 	clear: both;
@@ -1740,7 +1780,7 @@ a.high {
 	text-align: center;
 }
 
-/* Common style */
+
 .grid figure {
 	position: relative;
 	float: left;
@@ -1787,8 +1827,7 @@ a.high {
 	width: 100%;
 	height: 100%;
 }
-/***** Lexi *****/
-/*---------------*/
+
 
 figure.effect-lexi {
 	background: -webkit-linear-gradient(-45deg, #000 0%,#fff 100%);
@@ -1872,7 +1911,7 @@ figure.effect-lexi:hover p {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
-/*-- //effect --*/
+
 .panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
     color: #999;
     text-decoration: none;
@@ -1968,23 +2007,22 @@ h4.panel-title a span{
 	display:block;
 	margin: 1em 0 0;
 }
-/*-- //news-and-events --*/
-/*-- breaking-news --*/
+
 .breaking-news{
 	padding:3em 0 0;
 }
-/*-- wmuslider --*/
+
 .wmuSlider {
 	position: relative;
 	overflow: hidden;
 }
 .wmuSlider .wmuSliderWrapper article img {
-	/*--max-width: 100%;
+	max-width: 100%;
 	width: auto;
 	height: auto;
-	display:block;--*/
+	display:block;
 }
-/* Default Skin */
+
 .wmuSliderPagination {
 	z-index: 2;
 	position: absolute;
@@ -2013,7 +2051,7 @@ ul.wmuSliderPagination {
 .wmuSliderPagination a.wmuActive {
 	background:#1ABC9C;
 }
-/* Default Skin */
+
 .wmuGallery .wmuGalleryImage {
 	margin-bottom: 10px;
 }
@@ -2040,7 +2078,7 @@ ul.wmuSliderPagination {
 	-o-background-size:cover;
 	-ms-background-size:cover;
 }
-/*-- //wmuslider --*/
+
 .baner-beaking h3{
 	padding: 1em;
     background:rgba(255, 255, 255, 0.22);
@@ -2112,8 +2150,8 @@ ul.wmuSliderPagination {
 .breaking-news-grid-right h3{
 	margin:0 !important;
 }
-/*-- //breaking-news --*/
-/*-- contact --*/
+
+
 .typo,.contact,.slicebox-slider,.single{
 	padding:5em 0;
 }
@@ -2181,6 +2219,8 @@ h3.title,.map h3{
 	font-size:14px;
 	padding:12px 10px;
 }
+
+
 .contact-grid textarea{
 	min-height:125px;
 	resize:none;
@@ -2188,6 +2228,9 @@ h3.title,.map h3{
 }
 .contact-grid input[type="email"]{
 	margin:.5em 0;
+}
+.contact-grid h3{
+	margin-bottom:2%;
 }
 .contact-grid input[type="submit"]{
 	outline: none;
@@ -2204,9 +2247,28 @@ h3.title,.map h3{
     -o-transition: .5s all;
     -ms-transition: .5s all;
 }
+.contact-grid input[type="button"]:hover{
+	background:#1ABC9C;
+}
 .contact-grid input[type="submit"]:hover{
 	background:#1ABC9C;
 }
+.contact-grid input[type="button"]{
+	outline: none;
+    border: none;
+    width: 100%;
+    background: #1ABC9C;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 12px 0px;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
 .newsletter1{
 	padding:5.45em 2em 3.3em 0.5em;
     text-align: center;
@@ -2228,8 +2290,7 @@ h3.title,.map h3{
 .contact-grids {
     margin: 3em 0 0;
 }
-/*-- //contact --*/
-/*--Typography--*/
+
 p.iste{
 	color:#999;
 }
@@ -2474,12 +2535,11 @@ h2.typoh2{
 		display: none;
 	}
 }
-/*--//Typography --*/
-/*-- entertainment --*/
+
 .slicebox-slider-grid{
 	margin:3em 0 0;
 }
-/* Slicebox Style */
+
 .sb-slider {
 	margin:0 auto;
 	position: relative;
@@ -2599,7 +2659,7 @@ h2.typoh2{
     padding: 0 50px;
     margin: 0 auto;
 }
-/*-- // Slicebox Style --*/
+
 .gallery h3 {
     margin: 3em 0 !important;
     background: #1ABC9C;
@@ -2641,7 +2701,7 @@ img.mobile1 {
 .albums-grid1:nth-child(2){
 	margin:3em 0 0;
 }
-/*--single--*/
+
 .icon-box {
     padding: 8px 15px;
     background: rgba(149, 149, 149, 0.18);
@@ -2698,7 +2758,7 @@ img.mobile1 {
     -ms-transition: 0.5s all;
     -moz-transition: 0.5s all;
 }
-/*-- single --*/
+
 .admin-text {
 	border: 1px solid #f4f4f4;
 	padding: 2em;
@@ -3004,8 +3064,13 @@ img.mobile1 {
 .dropdown-menu > li > a:hover {
     color: #fff !important;
 }
-/*-- //single --*/
-/*-----start-responsive-design------*/
+
+
+
+
+
+
+
 @media (max-width:1680px){
 	.move-text {
 		width: 97.5%;
@@ -3051,13 +3116,13 @@ img.mobile1 {
 	.banner-bottom {
 		padding: 3em 0 0;
 	}
-	.iot ul li {
+	.health ul li {
 		font-size: 13px;
 	}
-	.iot ul li a {
+	.health ul li a {
 		padding: .1em 0.3em;
 	}
-	.iot {
+	.health {
 		padding: 1em 0.5em 0;
 	}
 	.banner-bottom-grid-left h3 {
@@ -3194,7 +3259,7 @@ img.mobile1 {
 	.banner-bottom-grid-left img{
 		width:100%;
 	}
-	.iot-pos {
+	.health-pos {
 		width: 91%;
 	}
 	.banner-bottom-grid-left h3 {
@@ -3203,7 +3268,7 @@ img.mobile1 {
 	.com-heart {
 		margin: 5.6em 0 0;
 	}
-	.iot ul li a {
+	.health ul li a {
 		padding: .2em 3em;
 		font-size: 14px;
 	}
@@ -3358,7 +3423,7 @@ img.mobile1 {
 	.banner-bottom-grid-left img{
 		width:100%;
 	}
-	.iot-pos {
+	.health-pos {
 		width: 91%;
 	}
 	.banner-bottom-grid-left h3 {
@@ -3367,7 +3432,7 @@ img.mobile1 {
 	.com-heart {
 		margin: 5.6em 0 0;
 	}
-	.iot ul li a {
+	.health ul li a {
 		padding: .2em 3em;
 		font-size: 14px;
 	}
@@ -3547,7 +3612,7 @@ img.mobile1 {
 	.com-heart {
 		margin:5.6em 0 0;
 	}
-	.iot-pos {
+	.health-pos {
 		width: 100%;
 	}
 	.breaking_news h2 {
@@ -3674,19 +3739,19 @@ img.mobile1 {
 	.banner-bottom {
 		padding: 2em 0 0;
 	}
-	.iot li a {
+	.health ul li a {
 		padding: .2em 0.5em;
 		font-size: 13px;
 	}
-	.iot {
+	.health {
 		padding: 1em 0.3em 0;
 	}
-	.iot ul li {
+	.health ul li {
 		padding: .2em 0.2em;
 		letter-spacing: 0;
 		margin-left: 0.5em;
 	}
-	.iot ul li:nth-child(2) {
+	.health ul li:nth-child(2) {
 		border: 1px solid #fff;
 	}
 	.banner-bottom-grid-left h3 {
@@ -3927,7 +3992,7 @@ img.mobile1 {
 		float: none;
 		width: 80%;
 	}
-	.iot ul li a {
+	.health ul li a {
 		padding: 0em 0.5em;
 	}
 	.banner-bottom-grid-left h3 {
@@ -4096,7 +4161,7 @@ img.mobile1 {
 		float: none;
 		width: 100%;
 	}
-	.banner-bottom-grid-left:hover .iot ul li a {
+	.banner-bottom-grid-left:hover .health ul li a {
 		border: 1px solid #fff;
 	}
 	.news {
@@ -4283,39 +4348,5 @@ img.mobile1 {
 	.navbar-nav .open .dropdown-menu > li > a:before,.navbar-nav .open .dropdown-menu > li > a:after {
 		display:none;
 	}
-
-  /*---edited by OW---(dr sini)*/
-.comment{ 
-  margin-bottom: 2%;
-  border-bottom: 2px solid #9C9C9C;
-  
-}
-
-.comments{
-  background: #E4E4E4;
-  padding:2%;
-  list-style-type:none;
-}
-.name{
-  fontWeight: bold;
-}
-.contact-grid input[type="text"],.contact-grid textarea{
-  outline:none;
-  border:1px solid #E9E9E9;
-  width:100%;
-  background:none;
-  color:#999;
-  font-size:14px;
-  padding:12px 10px;
-}
-.userreview{
-  margin:2%;
-}
-.comments ul{
-  list-style-type: none;
-}
-.userreview img{  
-  margin-right:2%;  
-}
-/*---edited by OW---(smpe sini)*/
+	
 }
