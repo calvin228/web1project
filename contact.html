@@ -1,0 +1,184 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>CF | Contact Us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<!-- banner -->
+	<div class="banner1">
+		<div class="banner-info1">
+			<div class="container">
+				<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+						<div class="logo">
+							<a class="navbar-brand" href="index.html"><span>CF</span> CF Organizer</a>
+						</div>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="/" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav cl-effect-18" id="cl-effect-18">
+							<li class="act"><a href="index.html">    Home</a></li>
+							<li><a href="events.html">Events</a></li>
+							<li><a href="articles.html">Articles</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->	
+					
+				</nav>
+			</div>
+		</div>
+	</div>
+<!-- //banner -->
+<!-- contact -->
+	<div class="contact">
+		<div class="container">
+			<div class="map">
+				<h3>Our Location</h3>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.9897418826663!2d98.67136131438137!3d3.5898273512874765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131cf9cb7f717%3A0x136b4f4f3c475d0c!2sGrand+Palladium!5e0!3m2!1sen!2sid!4v1501830168403" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>" 
+			</div>
+			<div class="contact-grids">
+				<div class="col-md-3 contact-grid">
+					<div class="call">
+						<div class="col-xs-3 contact-grdl">
+							<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+						</div>
+						<div class="col-xs-9 contact-grdr">
+							<ul>
+								<li>0812 7000 8000</li>
+								<li>061 735 980</li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="address">
+						<div class="col-xs-3 contact-grdl">
+							<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+						</div>
+						<div class="col-xs-9 contact-grdr">
+							<ul>
+								<li>Palladium Mall 3rd Floor</li>
+								<li>Jalan Kapten Maulana Lubis No.8, Petisah Tengah</li>
+								<li>Kota Medan, Sumatera Utara, 20236</li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="mail">
+						<div class="col-xs-3 contact-grdl">
+							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						</div>
+						<div class="col-xs-9 contact-grdr">
+							<ul>
+								<li><a href="mailto:info@example.com">contact@cf.com</a></li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-5 contact-grid">
+					<form>
+						<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+						<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+						<textarea type="text"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required>Message...</textarea>
+						<input type="submit" value="Send" >
+					</form>
+				</div>
+				<div class="col-md-4 contact-grid">
+					<div class="newsletter1">
+						<h3><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Newsletter</h3>
+					</div>
+					<form>
+						<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+						<input type="submit" value="Subscribe" >
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-12 contact-grid">
+					<form id="feedback">
+						<h3>FEEDBACK</h3>
+						<p>You can give some feedback to us by filling this form.</p>
+						<input type="text" value="Name" id="custname" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">				
+						<textarea type="text"  onfocus="this.value = '';" id="review" onblur="if (this.value == '') {this.value = 'Your opinion...';}"
+						style="margin-top:7px;" required>Your opinion...</textarea>
+						<input onclick="addReview()"
+						type="submit" value="Submit your opinion" >
+						<div class="userreview">
+							<h2 style="font-weight:bold;padding-bottom:1em;">Comments :</h2>
+							<ul class="comments">
+							<li class="comment"><img src="images/icon1.png" />							
+							<p><strong>Jack</strong></p>
+								<p>I was super excited to purchase a Groupon and take  my sons first professional pictures! but I almost didn't come to this location because of the reviews on here. Let me tell you, our experience was great! From beginning to end! We were greeted and checked in right away with Kelsey. She also helped us pick our pictures at the end of our session and she was super friendly and nice. Danielle took the photos of my son and she was amazing. My son got fussy and was giving us a hard time but she was patient and helped us calm him down. Our photos are very good quality & over all we had a great experience and we are definitely bringing him back for his 1 years photos, thank you!</p>
+								<p style="text-align:right;">Fri Aug 04 2017</p></li>								
+							</ul>
+										
+						</div>
+					</form>
+				</div>
+		</div>
+	</div>
+<!-- //contact -->
+<!-- footer -->
+	
+	<div class="footer">
+		<div class="container">
+			<div class="footer-grids wthree-agile">
+				
+				<div class="col-md-4 footer-grid-left">
+					<h3>contact form</h3>
+					<form>
+						<input type="text" value="enter your full name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'enter your full name';}" required="">
+						<input type="email" value="enter your email address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'enter your email address';}" required="">
+						<textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required>Message...</textarea>
+						<input type="submit" value="Submit" >
+					</form>
+				</div>
+				<div class="col-md-8 footer-grid-left">
+					<h3>about us</h3>
+					<p>CF Organizer is well experienced event organizer based in Medan. We started our project at 2017 and by now, we have been called by most companies in Medan to plan their special events.
+						<span>Besides, we also serve daily information about technology, fashion and food. Last but not least, we also sell tickets for upcoming events organized by us. Don't forget to add our website to your bookmark to enjoy trending news and upcoming events. <br>Have a nice day.</span>
+						<i>- CF Organizer Team</i></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="footer-bottom">
+				<div class="footer-bottom-left-whtree-agileinfo">
+					<p>CF Organizer | 2017</p>
+				</div>
+				<div class="footer-bottom-right-whtree-agileinfo">
+					<ul>
+						<li><a href="twitter.com" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a></li>
+						<li><a href="google.co.id" class="icon-button google"><i class="icon-google"></i><span></span></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+</body>
+</html>
